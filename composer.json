@@ -1,0 +1,27 @@
+{
+	"name": "inteve/latte",
+	"type": "library",
+	"description": "Extensions for Latte templates",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Jan Pecha",
+			"homepage": "https://www.janpecha.cz/"
+		}
+	],
+	"funding": [
+		{"type": "other", "url": "https://www.janpecha.cz/donate/"}
+	],
+	"require": {
+		"php": "7.4 - 8.2",
+		"latte/latte": "^2.4",
+		"nette/di": "^2.4",
+		"phig/phig": "^1.2"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require-dev": {
+		"nette/tester": "^2.4"
+	}
+}

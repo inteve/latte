@@ -1,0 +1,6 @@
+extensions:
+	inteve.latte: Inteve\Latte\DIExtension
+
+services:
+	- TestExtension
+	- Latte\Engine
