@@ -18,7 +18,7 @@ Extensions for Latte templates
 composer require inteve/latte
 ```
 
-Inteve\Latte requires PHP 7.4.0 or later and Latte 2.
+Inteve\Latte requires PHP 8.0 or later and Latte 2.
 
 
 ## Usage
