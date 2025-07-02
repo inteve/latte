@@ -12,7 +12,7 @@ class TestExtension extends \Inteve\Latte\Extension
 	public function getFilters(): array
 	{
 		return [
-			'myReverse' => function ($s) { return strrev($s); },
+			'myReverse' => function (string $s) { return strrev($s); },
 		];
 	}
 
