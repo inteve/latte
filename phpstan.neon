@@ -10,4 +10,4 @@ parameters:
 		- phpt
 
 	excludePaths:
-		- tests/temp/
+		- tests/temp/ (?)
