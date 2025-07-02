@@ -19,11 +19,11 @@
 			$latteFactory = NULL;
 
 			foreach ($builder->getDefinitions() as $definition) {
-				$factory = $definition->getFactory();
-
-				if (!($factory instanceof Nette\DI\Statement)) {
+				if (!($definition instanceof Nette\DI\Definitions\ServiceDefinition)) {
 					continue;
 				}
+
+				$factory = $definition->getFactory();
 
 				if ($factory->entity === Latte\Engine::class) {
 					$latteFactory = $definition;

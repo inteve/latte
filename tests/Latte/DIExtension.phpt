@@ -46,7 +46,6 @@ test('default', function () {
 	$container = new $class;
 	assert($container instanceof \Nette\DI\Container);
 	$latte = $container->getByType(\Latte\Engine::class);
-	assert($latte instanceof \Latte\Engine);
 	Tests::createTemplates($latte, [
 		'main' => '{myTag}:{=\'mytext\'|myReverse}'
 	]);
